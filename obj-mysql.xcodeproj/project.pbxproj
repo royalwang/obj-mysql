@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FA120F0180AEAD1006D8B35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA120EF180AEAD1006D8B35 /* Cocoa.framework */; };
+		9FA120FA180AEAD1006D8B35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FA120F8180AEAD1006D8B35 /* InfoPlist.strings */; };
+		9FA120FE180AEAD1006D8B35 /* obj_mysql.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA120FD180AEAD1006D8B35 /* obj_mysql.m */; };
+		9FA12105180AEAD1006D8B35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA12104180AEAD1006D8B35 /* XCTest.framework */; };
+		9FA12106180AEAD1006D8B35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA120EF180AEAD1006D8B35 /* Cocoa.framework */; };
+		9FA12109180AEAD1006D8B35 /* obj-mysql.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA120EC180AEAD1006D8B35 /* obj-mysql.framework */; };
+		9FA1210F180AEAD1006D8B35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FA1210D180AEAD1006D8B35 /* InfoPlist.strings */; };
+		9FA12111180AEAD1006D8B35 /* obj_mysqlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA12110180AEAD1006D8B35 /* obj_mysqlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FA12107180AEAD1006D8B35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FA120E3180AEAD1006D8B35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA120EB180AEAD1006D8B35;
+			remoteInfo = "obj-mysql";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FA120EC180AEAD1006D8B35 /* obj-mysql.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "obj-mysql.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA120EF180AEAD1006D8B35 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9FA120F2180AEAD1006D8B35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FA120F3180AEAD1006D8B35 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9FA120F4180AEAD1006D8B35 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9FA120F7180AEAD1006D8B35 /* obj-mysql-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "obj-mysql-Info.plist"; sourceTree = "<group>"; };
+		9FA120F9180AEAD1006D8B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FA120FB180AEAD1006D8B35 /* obj-mysql-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "obj-mysql-Prefix.pch"; sourceTree = "<group>"; };
+		9FA120FC180AEAD1006D8B35 /* obj_mysql.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = obj_mysql.h; sourceTree = "<group>"; };
+		9FA120FD180AEAD1006D8B35 /* obj_mysql.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = obj_mysql.m; sourceTree = "<group>"; };
+		9FA12103180AEAD1006D8B35 /* obj-mysqlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "obj-mysqlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA12104180AEAD1006D8B35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9FA1210C180AEAD1006D8B35 /* obj-mysqlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "obj-mysqlTests-Info.plist"; sourceTree = "<group>"; };
+		9FA1210E180AEAD1006D8B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FA12110180AEAD1006D8B35 /* obj_mysqlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = obj_mysqlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FA120E8180AEAD1006D8B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA120F0180AEAD1006D8B35 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA12100180AEAD1006D8B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA12109180AEAD1006D8B35 /* obj-mysql.framework in Frameworks */,
+				9FA12106180AEAD1006D8B35 /* Cocoa.framework in Frameworks */,
+				9FA12105180AEAD1006D8B35 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FA120E2180AEAD1006D8B35 = {
+			isa = PBXGroup;
+			children = (
+				9FA120F5180AEAD1006D8B35 /* obj-mysql */,
+				9FA1210A180AEAD1006D8B35 /* obj-mysqlTests */,
+				9FA120EE180AEAD1006D8B35 /* Frameworks */,
+				9FA120ED180AEAD1006D8B35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FA120ED180AEAD1006D8B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FA120EC180AEAD1006D8B35 /* obj-mysql.framework */,
+				9FA12103180AEAD1006D8B35 /* obj-mysqlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FA120EE180AEAD1006D8B35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA120EF180AEAD1006D8B35 /* Cocoa.framework */,
+				9FA12104180AEAD1006D8B35 /* XCTest.framework */,
+				9FA120F1180AEAD1006D8B35 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FA120F1180AEAD1006D8B35 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA120F2180AEAD1006D8B35 /* Foundation.framework */,
+				9FA120F3180AEAD1006D8B35 /* CoreData.framework */,
+				9FA120F4180AEAD1006D8B35 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9FA120F5180AEAD1006D8B35 /* obj-mysql */ = {
+			isa = PBXGroup;
+			children = (
+				9FA120FC180AEAD1006D8B35 /* obj_mysql.h */,
+				9FA120FD180AEAD1006D8B35 /* obj_mysql.m */,
+				9FA120F6180AEAD1006D8B35 /* Supporting Files */,
+			);
+			path = "obj-mysql";
+			sourceTree = "<group>";
+		};
+		9FA120F6180AEAD1006D8B35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FA120F7180AEAD1006D8B35 /* obj-mysql-Info.plist */,
+				9FA120F8180AEAD1006D8B35 /* InfoPlist.strings */,
+				9FA120FB180AEAD1006D8B35 /* obj-mysql-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FA1210A180AEAD1006D8B35 /* obj-mysqlTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FA12110180AEAD1006D8B35 /* obj_mysqlTests.m */,
+				9FA1210B180AEAD1006D8B35 /* Supporting Files */,
+			);
+			path = "obj-mysqlTests";
+			sourceTree = "<group>";
+		};
+		9FA1210B180AEAD1006D8B35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FA1210C180AEAD1006D8B35 /* obj-mysqlTests-Info.plist */,
+				9FA1210D180AEAD1006D8B35 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9FA120E9180AEAD1006D8B35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9FA120EB180AEAD1006D8B35 /* obj-mysql */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA12114180AEAD1006D8B35 /* Build configuration list for PBXNativeTarget "obj-mysql" */;
+			buildPhases = (
+				9FA120E7180AEAD1006D8B35 /* Sources */,
+				9FA120E8180AEAD1006D8B35 /* Frameworks */,
+				9FA120E9180AEAD1006D8B35 /* Headers */,
+				9FA120EA180AEAD1006D8B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "obj-mysql";
+			productName = "obj-mysql";
+			productReference = 9FA120EC180AEAD1006D8B35 /* obj-mysql.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FA12102180AEAD1006D8B35 /* obj-mysqlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA12117180AEAD1006D8B35 /* Build configuration list for PBXNativeTarget "obj-mysqlTests" */;
+			buildPhases = (
+				9FA120FF180AEAD1006D8B35 /* Sources */,
+				9FA12100180AEAD1006D8B35 /* Frameworks */,
+				9FA12101180AEAD1006D8B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FA12108180AEAD1006D8B35 /* PBXTargetDependency */,
+			);
+			name = "obj-mysqlTests";
+			productName = "obj-mysqlTests";
+			productReference = 9FA12103180AEAD1006D8B35 /* obj-mysqlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FA120E3180AEAD1006D8B35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ipluris;
+				TargetAttributes = {
+					9FA12102180AEAD1006D8B35 = {
+						TestTargetID = 9FA120EB180AEAD1006D8B35;
+					};
+				};
+			};
+			buildConfigurationList = 9FA120E6180AEAD1006D8B35 /* Build configuration list for PBXProject "obj-mysql" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FA120E2180AEAD1006D8B35;
+			productRefGroup = 9FA120ED180AEAD1006D8B35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FA120EB180AEAD1006D8B35 /* obj-mysql */,
+				9FA12102180AEAD1006D8B35 /* obj-mysqlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FA120EA180AEAD1006D8B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA120FA180AEAD1006D8B35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA12101180AEAD1006D8B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA1210F180AEAD1006D8B35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FA120E7180AEAD1006D8B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA120FE180AEAD1006D8B35 /* obj_mysql.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA120FF180AEAD1006D8B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA12111180AEAD1006D8B35 /* obj_mysqlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FA12108180AEAD1006D8B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FA120EB180AEAD1006D8B35 /* obj-mysql */;
+			targetProxy = 9FA12107180AEAD1006D8B35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FA120F8180AEAD1006D8B35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FA120F9180AEAD1006D8B35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FA1210D180AEAD1006D8B35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FA1210E180AEAD1006D8B35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FA12112180AEAD1006D8B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9FA12113180AEAD1006D8B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9FA12115180AEAD1006D8B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "obj-mysql/obj-mysql-Prefix.pch";
+				INFOPLIST_FILE = "obj-mysql/obj-mysql-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		9FA12116180AEAD1006D8B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "obj-mysql/obj-mysql-Prefix.pch";
+				INFOPLIST_FILE = "obj-mysql/obj-mysql-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		9FA12118180AEAD1006D8B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/obj-mysql.framework/Versions/A/obj-mysql";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "obj-mysql/obj-mysql-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "obj-mysqlTests/obj-mysqlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9FA12119180AEAD1006D8B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/obj-mysql.framework/Versions/A/obj-mysql";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "obj-mysql/obj-mysql-Prefix.pch";
+				INFOPLIST_FILE = "obj-mysqlTests/obj-mysqlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FA120E6180AEAD1006D8B35 /* Build configuration list for PBXProject "obj-mysql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA12112180AEAD1006D8B35 /* Debug */,
+				9FA12113180AEAD1006D8B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA12114180AEAD1006D8B35 /* Build configuration list for PBXNativeTarget "obj-mysql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA12115180AEAD1006D8B35 /* Debug */,
+				9FA12116180AEAD1006D8B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FA12117180AEAD1006D8B35 /* Build configuration list for PBXNativeTarget "obj-mysqlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA12118180AEAD1006D8B35 /* Debug */,
+				9FA12119180AEAD1006D8B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FA120E3180AEAD1006D8B35 /* Project object */;
+}

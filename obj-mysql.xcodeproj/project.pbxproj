@@ -15,6 +15,73 @@
 		9FA12109180AEAD1006D8B35 /* obj-mysql.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA120EC180AEAD1006D8B35 /* obj-mysql.framework */; };
 		9FA1210F180AEAD1006D8B35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FA1210D180AEAD1006D8B35 /* InfoPlist.strings */; };
 		9FA12111180AEAD1006D8B35 /* obj_mysqlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA12110180AEAD1006D8B35 /* obj_mysqlTests.m */; };
+		9FE24CFD180AEB8F0086226E /* gcc_builtins.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CB9180AEB8F0086226E /* gcc_builtins.h */; };
+		9FE24CFE180AEB8F0086226E /* generic-msvc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CBA180AEB8F0086226E /* generic-msvc.h */; };
+		9FE24CFF180AEB8F0086226E /* nolock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CBB180AEB8F0086226E /* nolock.h */; };
+		9FE24D00180AEB8F0086226E /* rwlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CBC180AEB8F0086226E /* rwlock.h */; };
+		9FE24D01180AEB8F0086226E /* x86-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CBD180AEB8F0086226E /* x86-gcc.h */; };
+		9FE24D02180AEB8F0086226E /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CBE180AEB8F0086226E /* base64.h */; };
+		9FE24D03180AEB8F0086226E /* config-win.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CBF180AEB8F0086226E /* config-win.h */; };
+		9FE24D04180AEB8F0086226E /* decimal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CC0180AEB8F0086226E /* decimal.h */; };
+		9FE24D05180AEB8F0086226E /* errmsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CC1180AEB8F0086226E /* errmsg.h */; };
+		9FE24D06180AEB8F0086226E /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CC2180AEB8F0086226E /* hash.h */; };
+		9FE24D07180AEB8F0086226E /* keycache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CC3180AEB8F0086226E /* keycache.h */; };
+		9FE24D08180AEB8F0086226E /* lf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CC4180AEB8F0086226E /* lf.h */; };
+		9FE24D09180AEB8F0086226E /* m_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CC5180AEB8F0086226E /* m_ctype.h */; };
+		9FE24D0A180AEB8F0086226E /* m_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CC6180AEB8F0086226E /* m_string.h */; };
+		9FE24D0B180AEB8F0086226E /* my_aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CC7180AEB8F0086226E /* my_aes.h */; };
+		9FE24D0C180AEB8F0086226E /* my_alarm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CC8180AEB8F0086226E /* my_alarm.h */; };
+		9FE24D0D180AEB8F0086226E /* my_alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CC9180AEB8F0086226E /* my_alloc.h */; };
+		9FE24D0E180AEB8F0086226E /* my_atomic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CCA180AEB8F0086226E /* my_atomic.h */; };
+		9FE24D0F180AEB8F0086226E /* my_attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CCB180AEB8F0086226E /* my_attribute.h */; };
+		9FE24D10180AEB8F0086226E /* my_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CCC180AEB8F0086226E /* my_base.h */; };
+		9FE24D11180AEB8F0086226E /* my_bit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CCD180AEB8F0086226E /* my_bit.h */; };
+		9FE24D12180AEB8F0086226E /* my_bitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CCE180AEB8F0086226E /* my_bitmap.h */; };
+		9FE24D13180AEB8F0086226E /* my_charsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CCF180AEB8F0086226E /* my_charsets.h */; };
+		9FE24D14180AEB8F0086226E /* my_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CD0180AEB8F0086226E /* my_config.h */; };
+		9FE24D15180AEB8F0086226E /* my_dbug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CD1180AEB8F0086226E /* my_dbug.h */; };
+		9FE24D16180AEB8F0086226E /* my_dir.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CD2180AEB8F0086226E /* my_dir.h */; };
+		9FE24D17180AEB8F0086226E /* my_getopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CD3180AEB8F0086226E /* my_getopt.h */; };
+		9FE24D18180AEB8F0086226E /* my_global.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CD4180AEB8F0086226E /* my_global.h */; };
+		9FE24D19180AEB8F0086226E /* my_libwrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CD5180AEB8F0086226E /* my_libwrap.h */; };
+		9FE24D1A180AEB8F0086226E /* my_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CD6180AEB8F0086226E /* my_list.h */; };
+		9FE24D1B180AEB8F0086226E /* my_md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CD7180AEB8F0086226E /* my_md5.h */; };
+		9FE24D1C180AEB8F0086226E /* my_net.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CD8180AEB8F0086226E /* my_net.h */; };
+		9FE24D1D180AEB8F0086226E /* my_no_pthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CD9180AEB8F0086226E /* my_no_pthread.h */; };
+		9FE24D1E180AEB8F0086226E /* my_nosys.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CDA180AEB8F0086226E /* my_nosys.h */; };
+		9FE24D1F180AEB8F0086226E /* my_pthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CDB180AEB8F0086226E /* my_pthread.h */; };
+		9FE24D20180AEB8F0086226E /* my_stacktrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CDC180AEB8F0086226E /* my_stacktrace.h */; };
+		9FE24D21180AEB8F0086226E /* my_sys.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CDD180AEB8F0086226E /* my_sys.h */; };
+		9FE24D22180AEB8F0086226E /* my_time.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CDE180AEB8F0086226E /* my_time.h */; };
+		9FE24D23180AEB8F0086226E /* my_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CDF180AEB8F0086226E /* my_tree.h */; };
+		9FE24D24180AEB8F0086226E /* my_trie.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CE0180AEB8F0086226E /* my_trie.h */; };
+		9FE24D25180AEB8F0086226E /* my_uctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CE1180AEB8F0086226E /* my_uctype.h */; };
+		9FE24D26180AEB8F0086226E /* my_vle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CE2180AEB8F0086226E /* my_vle.h */; };
+		9FE24D27180AEB8F0086226E /* my_xml.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CE3180AEB8F0086226E /* my_xml.h */; };
+		9FE24D28180AEB8F0086226E /* myisampack.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CE4180AEB8F0086226E /* myisampack.h */; };
+		9FE24D29180AEB8F0086226E /* mysql.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CE5180AEB8F0086226E /* mysql.h */; };
+		9FE24D2A180AEB8F0086226E /* mysql_com.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CE6180AEB8F0086226E /* mysql_com.h */; };
+		9FE24D2B180AEB8F0086226E /* mysql_time.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CE7180AEB8F0086226E /* mysql_time.h */; };
+		9FE24D2C180AEB8F0086226E /* mysql_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CE8180AEB8F0086226E /* mysql_version.h */; };
+		9FE24D2D180AEB8F0086226E /* mysqld_error.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CE9180AEB8F0086226E /* mysqld_error.h */; };
+		9FE24D2E180AEB8F0086226E /* rijndael.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CEB180AEB8F0086226E /* rijndael.h */; };
+		9FE24D2F180AEB8F0086226E /* mysys_err.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CEC180AEB8F0086226E /* mysys_err.h */; };
+		9FE24D30180AEB8F0086226E /* queues.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CED180AEB8F0086226E /* queues.h */; };
+		9FE24D31180AEB8F0086226E /* service_versions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CEE180AEB8F0086226E /* service_versions.h */; };
+		9FE24D32180AEB8F0086226E /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CEF180AEB8F0086226E /* sha1.h */; };
+		9FE24D33180AEB8F0086226E /* sha2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CF0180AEB8F0086226E /* sha2.h */; };
+		9FE24D34180AEB8F0086226E /* sql_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CF1180AEB8F0086226E /* sql_common.h */; };
+		9FE24D35180AEB8F0086226E /* sslopt-case.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CF2180AEB8F0086226E /* sslopt-case.h */; };
+		9FE24D36180AEB8F0086226E /* sslopt-longopts.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CF3180AEB8F0086226E /* sslopt-longopts.h */; };
+		9FE24D37180AEB8F0086226E /* sslopt-vars.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CF4180AEB8F0086226E /* sslopt-vars.h */; };
+		9FE24D38180AEB8F0086226E /* t_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CF5180AEB8F0086226E /* t_ctype.h */; };
+		9FE24D39180AEB8F0086226E /* thr_alarm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CF6180AEB8F0086226E /* thr_alarm.h */; };
+		9FE24D3A180AEB8F0086226E /* thr_lock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CF7180AEB8F0086226E /* thr_lock.h */; };
+		9FE24D3B180AEB8F0086226E /* typelib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CF8180AEB8F0086226E /* typelib.h */; };
+		9FE24D3C180AEB8F0086226E /* violite.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CF9180AEB8F0086226E /* violite.h */; };
+		9FE24D3D180AEB8F0086226E /* waiting_threads.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CFA180AEB8F0086226E /* waiting_threads.h */; };
+		9FE24D3E180AEB8F0086226E /* wqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE24CFB180AEB8F0086226E /* wqueue.h */; };
+		9FE24D3F180AEB8F0086226E /* libmysqlclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE24CFC180AEB8F0086226E /* libmysqlclient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +110,73 @@
 		9FA1210C180AEAD1006D8B35 /* obj-mysqlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "obj-mysqlTests-Info.plist"; sourceTree = "<group>"; };
 		9FA1210E180AEAD1006D8B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FA12110180AEAD1006D8B35 /* obj_mysqlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = obj_mysqlTests.m; sourceTree = "<group>"; };
+		9FE24CB9180AEB8F0086226E /* gcc_builtins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gcc_builtins.h; sourceTree = "<group>"; };
+		9FE24CBA180AEB8F0086226E /* generic-msvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "generic-msvc.h"; sourceTree = "<group>"; };
+		9FE24CBB180AEB8F0086226E /* nolock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nolock.h; sourceTree = "<group>"; };
+		9FE24CBC180AEB8F0086226E /* rwlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rwlock.h; sourceTree = "<group>"; };
+		9FE24CBD180AEB8F0086226E /* x86-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "x86-gcc.h"; sourceTree = "<group>"; };
+		9FE24CBE180AEB8F0086226E /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		9FE24CBF180AEB8F0086226E /* config-win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-win.h"; sourceTree = "<group>"; };
+		9FE24CC0180AEB8F0086226E /* decimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decimal.h; sourceTree = "<group>"; };
+		9FE24CC1180AEB8F0086226E /* errmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errmsg.h; sourceTree = "<group>"; };
+		9FE24CC2180AEB8F0086226E /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		9FE24CC3180AEB8F0086226E /* keycache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keycache.h; sourceTree = "<group>"; };
+		9FE24CC4180AEB8F0086226E /* lf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lf.h; sourceTree = "<group>"; };
+		9FE24CC5180AEB8F0086226E /* m_ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_ctype.h; sourceTree = "<group>"; };
+		9FE24CC6180AEB8F0086226E /* m_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_string.h; sourceTree = "<group>"; };
+		9FE24CC7180AEB8F0086226E /* my_aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_aes.h; sourceTree = "<group>"; };
+		9FE24CC8180AEB8F0086226E /* my_alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_alarm.h; sourceTree = "<group>"; };
+		9FE24CC9180AEB8F0086226E /* my_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_alloc.h; sourceTree = "<group>"; };
+		9FE24CCA180AEB8F0086226E /* my_atomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_atomic.h; sourceTree = "<group>"; };
+		9FE24CCB180AEB8F0086226E /* my_attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_attribute.h; sourceTree = "<group>"; };
+		9FE24CCC180AEB8F0086226E /* my_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_base.h; sourceTree = "<group>"; };
+		9FE24CCD180AEB8F0086226E /* my_bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_bit.h; sourceTree = "<group>"; };
+		9FE24CCE180AEB8F0086226E /* my_bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_bitmap.h; sourceTree = "<group>"; };
+		9FE24CCF180AEB8F0086226E /* my_charsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_charsets.h; sourceTree = "<group>"; };
+		9FE24CD0180AEB8F0086226E /* my_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_config.h; sourceTree = "<group>"; };
+		9FE24CD1180AEB8F0086226E /* my_dbug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_dbug.h; sourceTree = "<group>"; };
+		9FE24CD2180AEB8F0086226E /* my_dir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_dir.h; sourceTree = "<group>"; };
+		9FE24CD3180AEB8F0086226E /* my_getopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_getopt.h; sourceTree = "<group>"; };
+		9FE24CD4180AEB8F0086226E /* my_global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_global.h; sourceTree = "<group>"; };
+		9FE24CD5180AEB8F0086226E /* my_libwrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_libwrap.h; sourceTree = "<group>"; };
+		9FE24CD6180AEB8F0086226E /* my_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_list.h; sourceTree = "<group>"; };
+		9FE24CD7180AEB8F0086226E /* my_md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_md5.h; sourceTree = "<group>"; };
+		9FE24CD8180AEB8F0086226E /* my_net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_net.h; sourceTree = "<group>"; };
+		9FE24CD9180AEB8F0086226E /* my_no_pthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_no_pthread.h; sourceTree = "<group>"; };
+		9FE24CDA180AEB8F0086226E /* my_nosys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_nosys.h; sourceTree = "<group>"; };
+		9FE24CDB180AEB8F0086226E /* my_pthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_pthread.h; sourceTree = "<group>"; };
+		9FE24CDC180AEB8F0086226E /* my_stacktrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_stacktrace.h; sourceTree = "<group>"; };
+		9FE24CDD180AEB8F0086226E /* my_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_sys.h; sourceTree = "<group>"; };
+		9FE24CDE180AEB8F0086226E /* my_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_time.h; sourceTree = "<group>"; };
+		9FE24CDF180AEB8F0086226E /* my_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_tree.h; sourceTree = "<group>"; };
+		9FE24CE0180AEB8F0086226E /* my_trie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_trie.h; sourceTree = "<group>"; };
+		9FE24CE1180AEB8F0086226E /* my_uctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_uctype.h; sourceTree = "<group>"; };
+		9FE24CE2180AEB8F0086226E /* my_vle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_vle.h; sourceTree = "<group>"; };
+		9FE24CE3180AEB8F0086226E /* my_xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_xml.h; sourceTree = "<group>"; };
+		9FE24CE4180AEB8F0086226E /* myisampack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myisampack.h; sourceTree = "<group>"; };
+		9FE24CE5180AEB8F0086226E /* mysql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql.h; sourceTree = "<group>"; };
+		9FE24CE6180AEB8F0086226E /* mysql_com.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_com.h; sourceTree = "<group>"; };
+		9FE24CE7180AEB8F0086226E /* mysql_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_time.h; sourceTree = "<group>"; };
+		9FE24CE8180AEB8F0086226E /* mysql_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_version.h; sourceTree = "<group>"; };
+		9FE24CE9180AEB8F0086226E /* mysqld_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysqld_error.h; sourceTree = "<group>"; };
+		9FE24CEB180AEB8F0086226E /* rijndael.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rijndael.h; sourceTree = "<group>"; };
+		9FE24CEC180AEB8F0086226E /* mysys_err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysys_err.h; sourceTree = "<group>"; };
+		9FE24CED180AEB8F0086226E /* queues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queues.h; sourceTree = "<group>"; };
+		9FE24CEE180AEB8F0086226E /* service_versions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = service_versions.h; sourceTree = "<group>"; };
+		9FE24CEF180AEB8F0086226E /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		9FE24CF0180AEB8F0086226E /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
+		9FE24CF1180AEB8F0086226E /* sql_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sql_common.h; sourceTree = "<group>"; };
+		9FE24CF2180AEB8F0086226E /* sslopt-case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-case.h"; sourceTree = "<group>"; };
+		9FE24CF3180AEB8F0086226E /* sslopt-longopts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-longopts.h"; sourceTree = "<group>"; };
+		9FE24CF4180AEB8F0086226E /* sslopt-vars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-vars.h"; sourceTree = "<group>"; };
+		9FE24CF5180AEB8F0086226E /* t_ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_ctype.h; sourceTree = "<group>"; };
+		9FE24CF6180AEB8F0086226E /* thr_alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thr_alarm.h; sourceTree = "<group>"; };
+		9FE24CF7180AEB8F0086226E /* thr_lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thr_lock.h; sourceTree = "<group>"; };
+		9FE24CF8180AEB8F0086226E /* typelib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typelib.h; sourceTree = "<group>"; };
+		9FE24CF9180AEB8F0086226E /* violite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = violite.h; sourceTree = "<group>"; };
+		9FE24CFA180AEB8F0086226E /* waiting_threads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waiting_threads.h; sourceTree = "<group>"; };
+		9FE24CFB180AEB8F0086226E /* wqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wqueue.h; sourceTree = "<group>"; };
+		9FE24CFC180AEB8F0086226E /* libmysqlclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmysqlclient.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FA120F0180AEAD1006D8B35 /* Cocoa.framework in Frameworks */,
+				9FE24D3F180AEB8F0086226E /* libmysqlclient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +244,8 @@
 		9FA120F5180AEAD1006D8B35 /* obj-mysql */ = {
 			isa = PBXGroup;
 			children = (
+				9FE24CFC180AEB8F0086226E /* libmysqlclient.a */,
+				9FE24CB7180AEB8F0086226E /* include */,
 				9FA120FC180AEAD1006D8B35 /* obj_mysql.h */,
 				9FA120FD180AEAD1006D8B35 /* obj_mysql.m */,
 				9FA120F6180AEAD1006D8B35 /* Supporting Files */,
@@ -144,6 +281,95 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9FE24CB7180AEB8F0086226E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9FE24CB8180AEB8F0086226E /* atomic */,
+				9FE24CBE180AEB8F0086226E /* base64.h */,
+				9FE24CBF180AEB8F0086226E /* config-win.h */,
+				9FE24CC0180AEB8F0086226E /* decimal.h */,
+				9FE24CC1180AEB8F0086226E /* errmsg.h */,
+				9FE24CC2180AEB8F0086226E /* hash.h */,
+				9FE24CC3180AEB8F0086226E /* keycache.h */,
+				9FE24CC4180AEB8F0086226E /* lf.h */,
+				9FE24CC5180AEB8F0086226E /* m_ctype.h */,
+				9FE24CC6180AEB8F0086226E /* m_string.h */,
+				9FE24CC7180AEB8F0086226E /* my_aes.h */,
+				9FE24CC8180AEB8F0086226E /* my_alarm.h */,
+				9FE24CC9180AEB8F0086226E /* my_alloc.h */,
+				9FE24CCA180AEB8F0086226E /* my_atomic.h */,
+				9FE24CCB180AEB8F0086226E /* my_attribute.h */,
+				9FE24CCC180AEB8F0086226E /* my_base.h */,
+				9FE24CCD180AEB8F0086226E /* my_bit.h */,
+				9FE24CCE180AEB8F0086226E /* my_bitmap.h */,
+				9FE24CCF180AEB8F0086226E /* my_charsets.h */,
+				9FE24CD0180AEB8F0086226E /* my_config.h */,
+				9FE24CD1180AEB8F0086226E /* my_dbug.h */,
+				9FE24CD2180AEB8F0086226E /* my_dir.h */,
+				9FE24CD3180AEB8F0086226E /* my_getopt.h */,
+				9FE24CD4180AEB8F0086226E /* my_global.h */,
+				9FE24CD5180AEB8F0086226E /* my_libwrap.h */,
+				9FE24CD6180AEB8F0086226E /* my_list.h */,
+				9FE24CD7180AEB8F0086226E /* my_md5.h */,
+				9FE24CD8180AEB8F0086226E /* my_net.h */,
+				9FE24CD9180AEB8F0086226E /* my_no_pthread.h */,
+				9FE24CDA180AEB8F0086226E /* my_nosys.h */,
+				9FE24CDB180AEB8F0086226E /* my_pthread.h */,
+				9FE24CDC180AEB8F0086226E /* my_stacktrace.h */,
+				9FE24CDD180AEB8F0086226E /* my_sys.h */,
+				9FE24CDE180AEB8F0086226E /* my_time.h */,
+				9FE24CDF180AEB8F0086226E /* my_tree.h */,
+				9FE24CE0180AEB8F0086226E /* my_trie.h */,
+				9FE24CE1180AEB8F0086226E /* my_uctype.h */,
+				9FE24CE2180AEB8F0086226E /* my_vle.h */,
+				9FE24CE3180AEB8F0086226E /* my_xml.h */,
+				9FE24CE4180AEB8F0086226E /* myisampack.h */,
+				9FE24CE5180AEB8F0086226E /* mysql.h */,
+				9FE24CE6180AEB8F0086226E /* mysql_com.h */,
+				9FE24CE7180AEB8F0086226E /* mysql_time.h */,
+				9FE24CE8180AEB8F0086226E /* mysql_version.h */,
+				9FE24CE9180AEB8F0086226E /* mysqld_error.h */,
+				9FE24CEA180AEB8F0086226E /* mysys */,
+				9FE24CEC180AEB8F0086226E /* mysys_err.h */,
+				9FE24CED180AEB8F0086226E /* queues.h */,
+				9FE24CEE180AEB8F0086226E /* service_versions.h */,
+				9FE24CEF180AEB8F0086226E /* sha1.h */,
+				9FE24CF0180AEB8F0086226E /* sha2.h */,
+				9FE24CF1180AEB8F0086226E /* sql_common.h */,
+				9FE24CF2180AEB8F0086226E /* sslopt-case.h */,
+				9FE24CF3180AEB8F0086226E /* sslopt-longopts.h */,
+				9FE24CF4180AEB8F0086226E /* sslopt-vars.h */,
+				9FE24CF5180AEB8F0086226E /* t_ctype.h */,
+				9FE24CF6180AEB8F0086226E /* thr_alarm.h */,
+				9FE24CF7180AEB8F0086226E /* thr_lock.h */,
+				9FE24CF8180AEB8F0086226E /* typelib.h */,
+				9FE24CF9180AEB8F0086226E /* violite.h */,
+				9FE24CFA180AEB8F0086226E /* waiting_threads.h */,
+				9FE24CFB180AEB8F0086226E /* wqueue.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		9FE24CB8180AEB8F0086226E /* atomic */ = {
+			isa = PBXGroup;
+			children = (
+				9FE24CB9180AEB8F0086226E /* gcc_builtins.h */,
+				9FE24CBA180AEB8F0086226E /* generic-msvc.h */,
+				9FE24CBB180AEB8F0086226E /* nolock.h */,
+				9FE24CBC180AEB8F0086226E /* rwlock.h */,
+				9FE24CBD180AEB8F0086226E /* x86-gcc.h */,
+			);
+			path = atomic;
+			sourceTree = "<group>";
+		};
+		9FE24CEA180AEB8F0086226E /* mysys */ = {
+			isa = PBXGroup;
+			children = (
+				9FE24CEB180AEB8F0086226E /* rijndael.h */,
+			);
+			path = mysys;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -151,6 +377,72 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE24D2C180AEB8F0086226E /* mysql_version.h in Headers */,
+				9FE24D2B180AEB8F0086226E /* mysql_time.h in Headers */,
+				9FE24D29180AEB8F0086226E /* mysql.h in Headers */,
+				9FE24D06180AEB8F0086226E /* hash.h in Headers */,
+				9FE24D1D180AEB8F0086226E /* my_no_pthread.h in Headers */,
+				9FE24D0E180AEB8F0086226E /* my_atomic.h in Headers */,
+				9FE24D22180AEB8F0086226E /* my_time.h in Headers */,
+				9FE24D16180AEB8F0086226E /* my_dir.h in Headers */,
+				9FE24D2D180AEB8F0086226E /* mysqld_error.h in Headers */,
+				9FE24D3D180AEB8F0086226E /* waiting_threads.h in Headers */,
+				9FE24D28180AEB8F0086226E /* myisampack.h in Headers */,
+				9FE24D2F180AEB8F0086226E /* mysys_err.h in Headers */,
+				9FE24D0D180AEB8F0086226E /* my_alloc.h in Headers */,
+				9FE24D1B180AEB8F0086226E /* my_md5.h in Headers */,
+				9FE24D36180AEB8F0086226E /* sslopt-longopts.h in Headers */,
+				9FE24D0F180AEB8F0086226E /* my_attribute.h in Headers */,
+				9FE24D3E180AEB8F0086226E /* wqueue.h in Headers */,
+				9FE24D24180AEB8F0086226E /* my_trie.h in Headers */,
+				9FE24D37180AEB8F0086226E /* sslopt-vars.h in Headers */,
+				9FE24D23180AEB8F0086226E /* my_tree.h in Headers */,
+				9FE24D26180AEB8F0086226E /* my_vle.h in Headers */,
+				9FE24D14180AEB8F0086226E /* my_config.h in Headers */,
+				9FE24D35180AEB8F0086226E /* sslopt-case.h in Headers */,
+				9FE24D30180AEB8F0086226E /* queues.h in Headers */,
+				9FE24D3A180AEB8F0086226E /* thr_lock.h in Headers */,
+				9FE24D0B180AEB8F0086226E /* my_aes.h in Headers */,
+				9FE24D18180AEB8F0086226E /* my_global.h in Headers */,
+				9FE24D0C180AEB8F0086226E /* my_alarm.h in Headers */,
+				9FE24D2A180AEB8F0086226E /* mysql_com.h in Headers */,
+				9FE24D3C180AEB8F0086226E /* violite.h in Headers */,
+				9FE24D1C180AEB8F0086226E /* my_net.h in Headers */,
+				9FE24D15180AEB8F0086226E /* my_dbug.h in Headers */,
+				9FE24D00180AEB8F0086226E /* rwlock.h in Headers */,
+				9FE24D34180AEB8F0086226E /* sql_common.h in Headers */,
+				9FE24D25180AEB8F0086226E /* my_uctype.h in Headers */,
+				9FE24D21180AEB8F0086226E /* my_sys.h in Headers */,
+				9FE24D12180AEB8F0086226E /* my_bitmap.h in Headers */,
+				9FE24D11180AEB8F0086226E /* my_bit.h in Headers */,
+				9FE24D1F180AEB8F0086226E /* my_pthread.h in Headers */,
+				9FE24D38180AEB8F0086226E /* t_ctype.h in Headers */,
+				9FE24D2E180AEB8F0086226E /* rijndael.h in Headers */,
+				9FE24D10180AEB8F0086226E /* my_base.h in Headers */,
+				9FE24D1E180AEB8F0086226E /* my_nosys.h in Headers */,
+				9FE24CFD180AEB8F0086226E /* gcc_builtins.h in Headers */,
+				9FE24CFF180AEB8F0086226E /* nolock.h in Headers */,
+				9FE24D03180AEB8F0086226E /* config-win.h in Headers */,
+				9FE24D17180AEB8F0086226E /* my_getopt.h in Headers */,
+				9FE24D13180AEB8F0086226E /* my_charsets.h in Headers */,
+				9FE24CFE180AEB8F0086226E /* generic-msvc.h in Headers */,
+				9FE24D33180AEB8F0086226E /* sha2.h in Headers */,
+				9FE24D19180AEB8F0086226E /* my_libwrap.h in Headers */,
+				9FE24D01180AEB8F0086226E /* x86-gcc.h in Headers */,
+				9FE24D05180AEB8F0086226E /* errmsg.h in Headers */,
+				9FE24D31180AEB8F0086226E /* service_versions.h in Headers */,
+				9FE24D08180AEB8F0086226E /* lf.h in Headers */,
+				9FE24D27180AEB8F0086226E /* my_xml.h in Headers */,
+				9FE24D3B180AEB8F0086226E /* typelib.h in Headers */,
+				9FE24D04180AEB8F0086226E /* decimal.h in Headers */,
+				9FE24D09180AEB8F0086226E /* m_ctype.h in Headers */,
+				9FE24D1A180AEB8F0086226E /* my_list.h in Headers */,
+				9FE24D32180AEB8F0086226E /* sha1.h in Headers */,
+				9FE24D39180AEB8F0086226E /* thr_alarm.h in Headers */,
+				9FE24D07180AEB8F0086226E /* keycache.h in Headers */,
+				9FE24D02180AEB8F0086226E /* base64.h in Headers */,
+				9FE24D0A180AEB8F0086226E /* m_string.h in Headers */,
+				9FE24D20180AEB8F0086226E /* my_stacktrace.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +661,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "obj-mysql/obj-mysql-Prefix.pch";
 				INFOPLIST_FILE = "obj-mysql/obj-mysql-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/cmh/projects/obj-mysql/obj-mysql",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -384,6 +680,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "obj-mysql/obj-mysql-Prefix.pch";
 				INFOPLIST_FILE = "obj-mysql/obj-mysql-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/cmh/projects/obj-mysql/obj-mysql",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -448,6 +748,7 @@
 				9FA12116180AEAD1006D8B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FA12117180AEAD1006D8B35 /* Build configuration list for PBXNativeTarget "obj-mysqlTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +757,7 @@
 				9FA12119180AEAD1006D8B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

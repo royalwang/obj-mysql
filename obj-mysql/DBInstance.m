@@ -115,6 +115,15 @@
 }
 
 // ----------------------------------------------------------------------------
+- (BOOL)connected
+{
+    if(mysql_stat(instance))
+        return YES;
+    else
+        return NO;
+}
+
+// ----------------------------------------------------------------------------
 - (void)recordError
 {
     const char *raw = mysql_errno(instance);

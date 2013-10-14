@@ -126,7 +126,7 @@
 // ----------------------------------------------------------------------------
 - (void)recordError
 {
-    const char *raw = mysql_errno(instance);
+    const char *raw = mysql_error(instance); 
     
     if(raw)
         error = [NSString stringWithUTF8String:raw];

@@ -83,6 +83,7 @@
     // and now attempt the actual connection
     if(!mysql_real_connect(instance, parameters[1], parameters[3], parameters[4], parameters[2], _port, parameters[0], 0))
     {
+        [self recordError];
         @throw [[DBException alloc] initWithName:@"Connection Exception" reason:error userInfo:nil];
     }
     
@@ -90,4 +91,55 @@
     mysql_set_character_set(instance, "utf8");
     
 }
+
+// ----------------------------------------------------------------------------
+- (void)connectTo:(NSString *)server andDatabase:(NSString *)db onPort:(unsigned int)port withUser:(NSString *)user andPassword:(NSString *)password
+{
+    _server = server;
+    _databaseName = db;
+    _port = port;
+    _user = user;
+    _password = password;
+    
+    [self connect];
+}
+
+// ----------------------------------------------------------------------------
+- (void)disconnect
+{
+    if(instance)
+    {
+        mysql_close(instance);
+        instance = nil;
+    }
+}
+
+// ----------------------------------------------------------------------------
+- (void)recordError
+{
+    const char *raw = mysql_errno(instance);
+    
+    if(raw)
+        error = [NSString stringWithUTF8String:raw];
+    
+}
+
+// ----------------------------------------------------------------------------
+- (NSString *)safe:(NSString *)source
+{
+    NSInteger length = [source lengthOfBytesUsingEncoding:NSUTF8StringEncoding];
+    
+    if(length)
+    {
+        NSInteger realLength = (length<<1)+2; // the maximum length in UTF-8 encoding
+        char toch[realLength];
+        char *to = toch;
+        memset(to, 0, realLength);
+        mysql_real_escape_string(instance, to, source.UTF8String,length);
+        return [NSString stringWithUTF8String:to];
+    }
+    return source;
+
+}
+
 @end

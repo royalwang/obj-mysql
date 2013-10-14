@@ -25,10 +25,10 @@
 @property unsigned int port;
 
 - (void)connect;
-- (void)connectTo:(NSString *)server onPort:(unsigned int)port withUser:(NSString *)user andPassword:(NSString *)password;
+- (void)connectTo:(NSString *)server andDatabase:(NSString *)db onPort:(unsigned int)port withUser:(NSString *)user andPassword:(NSString *)password;
 - (void)disconnect;
 - (BOOL)connected;
-- (NSString *)message;
+- (void)recordError;
 
 - (NSString *)safe:(NSString *)source;
 @end

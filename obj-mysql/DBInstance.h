@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DBException.h"
+
 #import "mysql.h"
 
 @interface DBInstance : NSObject

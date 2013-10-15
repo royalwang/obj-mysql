@@ -53,18 +53,22 @@
         MYSQL_ROW currentRow;
         while((currentRow = mysql_fetch_row(result)))
         {
+            unsigned long *colLength = mysql_fetch_lengths(result);
+            
             NSMutableArray *current = [NSMutableArray array];
             for(int colIndex = 0; colIndex < numberOfFields; colIndex++)
             {
                 if(currentRow[colIndex] != NULL)
                 {
-                    [current addObject:[NSString stringWithUTF8String:currentRow[colIndex]]]; // TODO: perhaps better to store as NSData, need to investigate
+                    [current addObject:[NSData dataWithBytes:currentRow[colIndex] length:colLength[colIndex]]];
+                    //[current addObject:[NSString stringWithUTF8String:currentRow[colIndex]]]; // TODO: perhaps better to store as NSData, need to investigate
                 }
                 else
                 {
-                    [current addObject:@""]; // same comment as above
+                    [current addObject:[NSData data]]; // same comment as above
                 }
             }
+            [theRows addObject:current];
         }
         
         mysql_free_result(result);
@@ -82,7 +86,11 @@
 // ----------------------------------------------------------------------------
 - (NSString *)stringValueFromRow:(int)row andColumn:(int)col
 {
-    return [[theRows objectAtIndex:row] objectAtIndex:col];
+    NSData *raw = [[theRows objectAtIndex:row] objectAtIndex:col];
+    
+    NSString *returnData = [[NSString alloc] initWithBytes:[raw bytes] length:[raw length] encoding:NSUTF8StringEncoding];
+    
+    return returnData;
 }
 
 // ----------------------------------------------------------------------------
@@ -95,6 +103,12 @@
 - (double)doubleValueFromRow:(int)row andColumn:(int)col
 {
     return [[self stringValueFromRow:row andColumn:col] doubleValue];
+}
+
+// ----------------------------------------------------------------------------
+- (NSData *)rawValueFromRow:(int)row andColumn:(int)col
+{
+    return [[theRows objectAtIndex:row] objectAtIndex:col];
 }
 
 // ----------------------------------------------------------------------------

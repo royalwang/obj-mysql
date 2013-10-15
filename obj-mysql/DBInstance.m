@@ -16,6 +16,7 @@
 @synthesize user = _user;
 @synthesize password = _password;
 @synthesize port = _port;
+@synthesize error = _error;
 
 // ----------------------------------------------------------------------------
 - (id) init
@@ -84,7 +85,7 @@
     if(!mysql_real_connect(instance, parameters[1], parameters[3], parameters[4], parameters[2], _port, parameters[0], 0))
     {
         [self recordError];
-        @throw [[DBException alloc] initWithName:@"Connection Exception" reason:error userInfo:nil];
+        @throw [[DBException alloc] initWithName:@"Connection Exception" reason:_error userInfo:nil];
     }
     
     // and theoretically this is not needed
@@ -129,7 +130,7 @@
     const char *raw = mysql_error(instance); 
     
     if(raw)
-        error = [NSString stringWithUTF8String:raw];
+        _error = [NSString stringWithUTF8String:raw];
     
 }
 
@@ -149,6 +150,12 @@
     }
     return source;
 
+}
+
+// ----------------------------------------------------------------------------
+- (MYSQL *)dbInstance
+{
+    return instance;
 }
 
 @end

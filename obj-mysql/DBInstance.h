@@ -14,7 +14,6 @@
 @interface DBInstance : NSObject
 {
     MYSQL *instance; // self explanatory
-    NSString *error;
 }
 
 @property (readwrite)NSString *socket;
@@ -24,6 +23,8 @@
 @property (readwrite)NSString *password;
 @property unsigned int port;
 
+@property (readwrite)NSString *error;
+
 - (void)connect;
 - (void)connectTo:(NSString *)server andDatabase:(NSString *)db onPort:(unsigned int)port withUser:(NSString *)user andPassword:(NSString *)password;
 - (void)disconnect;
@@ -31,4 +32,6 @@
 - (void)recordError;
 
 - (NSString *)safe:(NSString *)source;
+
+- (MYSQL *)dbInstance;
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F60BD42180D70F500CE42EC /* DBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F60BD40180D70F500CE42EC /* DBQuery.h */; };
+		9F60BD43180D70F500CE42EC /* DBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F60BD41180D70F500CE42EC /* DBQuery.m */; };
 		9FA120F0180AEAD1006D8B35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA120EF180AEAD1006D8B35 /* Cocoa.framework */; };
 		9FA120FA180AEAD1006D8B35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FA120F8180AEAD1006D8B35 /* InfoPlist.strings */; };
 		9FA120FE180AEAD1006D8B35 /* obj_mysql.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA120FD180AEAD1006D8B35 /* obj_mysql.m */; };
@@ -99,6 +101,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F60BD40180D70F500CE42EC /* DBQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQuery.h; sourceTree = "<group>"; };
+		9F60BD41180D70F500CE42EC /* DBQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQuery.m; sourceTree = "<group>"; };
 		9FA120EC180AEAD1006D8B35 /* obj-mysql.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "obj-mysql.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA120EF180AEAD1006D8B35 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9FA120F2180AEAD1006D8B35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -261,6 +265,8 @@
 				9FE24D41180B86840086226E /* DBInstance.m */,
 				9FA74088180C87AC0009B861 /* DBException.h */,
 				9FA74089180C87AC0009B861 /* DBException.m */,
+				9F60BD40180D70F500CE42EC /* DBQuery.h */,
+				9F60BD41180D70F500CE42EC /* DBQuery.m */,
 			);
 			path = "obj-mysql";
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 				9FE24D2C180AEB8F0086226E /* mysql_version.h in Headers */,
 				9FE24D2B180AEB8F0086226E /* mysql_time.h in Headers */,
 				9FE24D29180AEB8F0086226E /* mysql.h in Headers */,
+				9F60BD42180D70F500CE42EC /* DBQuery.h in Headers */,
 				9FE24D42180B86840086226E /* DBInstance.h in Headers */,
 				9FE24D06180AEB8F0086226E /* hash.h in Headers */,
 				9FE24D1D180AEB8F0086226E /* my_no_pthread.h in Headers */,
@@ -555,6 +562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F60BD43180D70F500CE42EC /* DBQuery.m in Sources */,
 				9FE24D43180B86840086226E /* DBInstance.m in Sources */,
 				9FA120FE180AEAD1006D8B35 /* obj_mysql.m in Sources */,
 				9FA7408B180C87AC0009B861 /* DBException.m in Sources */,

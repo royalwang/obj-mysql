@@ -58,7 +58,7 @@
             {
                 if(currentRow[colIndex] != NULL)
                 {
-                    [current addObject:[NSString stringWithUTF8String:[currentRow[colIndex]]]]; // TODO: perhaps better to store as NSData, need to investigate
+                    [current addObject:[NSString stringWithUTF8String:currentRow[colIndex]]]; // TODO: perhaps better to store as NSData, need to investigate
                 }
                 else
                 {
@@ -80,6 +80,22 @@
 }
 
 // ----------------------------------------------------------------------------
+- (NSString *)stringValueFromRow:(int)row andColumn:(int)col
+{
+    return [[theRows objectAtIndex:row] objectAtIndex:col];
+}
+
+// ----------------------------------------------------------------------------
+- (int)intValueFromRow:(int)row andColumn:(int)col
+{
+    return [[self stringValueFromRow:row andColumn:col] intValue];
+}
+
+// ----------------------------------------------------------------------------
+- (double)doubleValueFromRow:(int)row andColumn:(int)col
+{
+    return [[self stringValueFromRow:row andColumn:col] doubleValue];
+}
 
 // ----------------------------------------------------------------------------
 // Could I just 86 this method ?

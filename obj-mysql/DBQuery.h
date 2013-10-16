@@ -29,6 +29,7 @@
 
 - (NSString *)stringValueFromRow:(int)row andColumn:(int)col;
 - (NSDate *)dateValueFromRow:(int)row andColumn:(int)col;
+- (NSDate *)dateTimeValueFromRow:(int)row andColumn:(int)col;
 - (NSData *)rawValueFromRow:(int)row andColumn:(int)col;
 
 - (int)intValueFromRow:(int)row andColumn:(int)col;

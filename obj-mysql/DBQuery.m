@@ -94,6 +94,28 @@
 }
 
 // ----------------------------------------------------------------------------
+- (NSDate *)dateValueFromRow:(int)row andColumn:(int)col
+{
+    NSString *stringRep = [self stringValueFromRow:row andColumn:col];
+    
+    NSDateFormatter *dateFormate = [NSDateFormatter new];
+    [dateFormate setDateFormat:@"yyyy-MM-dd"];
+    
+    return [dateFormate dateFromString:stringRep];
+}
+
+// ----------------------------------------------------------------------------
+- (NSDate *)dateTimeValueFromRow:(int)row andColumn:(int)col
+{
+    NSString *stringRep = [self stringValueFromRow:row andColumn:col];
+    
+    NSDateFormatter *dateFormate = [NSDateFormatter new];
+    [dateFormate setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    
+    return [dateFormate dateFromString:stringRep];
+}
+
+// ----------------------------------------------------------------------------
 - (int)intValueFromRow:(int)row andColumn:(int)col
 {
     return [[self stringValueFromRow:row andColumn:col] intValue];

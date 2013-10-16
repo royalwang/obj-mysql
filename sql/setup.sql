@@ -10,7 +10,8 @@ CREATE TABLE test(
        intValue INT,
        doubleValue DOUBLE,
        varcharValue VARCHAR(255),
-       dateValue DATE
+       dateValue DATE,
+       dateTimeValue DATETIME
 );
 
-INSERT INTO test(intValue, doubleValue, varcharValue, dateValue) VALUES(1,3.1415,'this is a string', NOW());
+INSERT INTO test(intValue, doubleValue, varcharValue, dateValue, dateTimeValue) VALUES(1,3.1415,'this is a string', NOW(), NOW());

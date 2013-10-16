@@ -108,4 +108,46 @@
     }
     
 }
+
+// ----------------------------------------------------------------------------
+- (void)testReadDate
+{
+    @try {
+        DBQuery *query = [[DBQuery alloc] initWithDatabase:db];
+        
+        [query executeQuery:@"SELECT * FROM test"];
+        
+        NSDate *readValue = [query dateValueFromRow:0 andColumn:3];
+
+        // we just check and make sure it is not null
+        if(readValue == nil)
+        {
+            XCTFail(@"dateValueFromRow:andColumn: failed");
+        }
+    }
+    @catch (DBException *exception) {
+        XCTFail(@"Failed reading in: %@", [exception reason]);
+    }
+}
+
+// ----------------------------------------------------------------------------
+- (void)testReadDateTime
+{
+    @try {
+        DBQuery *query = [[DBQuery alloc] initWithDatabase:db];
+        
+        [query executeQuery:@"SELECT * FROM test"];
+        
+        NSDate *readValue = [query dateTimeValueFromRow:0 andColumn:4];
+        
+        // we just check and make sure it is not null
+        if(readValue == nil)
+        {
+            XCTFail(@"dateValueFromRow:andColumn: failed");
+        }
+    }
+    @catch (DBException *exception) {
+        XCTFail(@"Failed reading in: %@", [exception reason]);
+    }
+}
 @end

@@ -84,6 +84,12 @@
 }
 
 // ----------------------------------------------------------------------------
+- (int)rowCount
+{
+    return (int)[theRows count];
+}
+
+// ----------------------------------------------------------------------------
 - (NSString *)stringValueFromRow:(int)row andColumn:(int)col
 {
     NSData *raw = [[theRows objectAtIndex:row] objectAtIndex:col];

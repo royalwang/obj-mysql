@@ -61,7 +61,6 @@
                 if(currentRow[colIndex] != NULL)
                 {
                     [current addObject:[NSData dataWithBytes:currentRow[colIndex] length:colLength[colIndex]]];
-                    //[current addObject:[NSString stringWithUTF8String:currentRow[colIndex]]]; // TODO: perhaps better to store as NSData, need to investigate
                 }
                 else
                 {

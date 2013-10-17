@@ -50,7 +50,7 @@
     // idea to do it.
     
     // ok long nasty check, default port to 3306 though
-    if(!_server & !_user & !_password)
+    if(!_server | !_user | !_password)
     {
         @throw [[DBException alloc] initWithName:@"Missing information" reason:@"server, user and password required" userInfo:nil];
     }
@@ -131,6 +131,8 @@
     
     if(raw)
         _error = [NSString stringWithUTF8String:raw];
+    else
+        _error = @"Unknown Error";
     
 }
 
